@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: #212121;
+            color:#fff;
+        }
+        button
+        {
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Number Guessing Game</h2>
+        <label>Guess a number</label>
+        <input type="text" class="input-box">
+        <input type="submit" class="subt" value="Submit guess">
+        <p>Previous guesses:<span class="prev"></span></p>
+        <p>Guesses Remaining:<span class="guessCount">10</span></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script src="GuessNo.js"></script>
+</body>
+</html>
